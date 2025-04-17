@@ -41,7 +41,22 @@ public class Balok {
     public int getVolume() {
         return panjang * lebar * tinggi;
     }
-    
+
+    // Setter panjang
+    public void setPanjang(int panjangBaru) {
+        this.panjang = panjangBaru;
+    }
+
+    // Setter lebar
+    public void setLebar(int lebarBaru) {
+        this.lebar = lebarBaru;
+    }
+
+    // Setter tinggi
+    public void setTinggi(int tinggiBaru) {
+        this.tinggi = tinggiBaru;
+    }
+
     public int getPanjang() {
         return this.panjang;
     }
