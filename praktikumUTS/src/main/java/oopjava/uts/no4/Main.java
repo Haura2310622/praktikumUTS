@@ -11,11 +11,17 @@ package oopjava.uts.no4;
 public class Main {
     public static void main(String[] args) {
         // Balok 1
-        Balok balok1 = new Balok(1, 1, 1);
+        Balok balok1 = new Balok();
+        int panjang = balok1.panjang = 1;
+        int lebar = balok1.lebar = 1;
+        int tinggi = balok1.tinggi = 1;
         tampilkanInfo("Balok1", balok1);
 
         // Balok 2
-        Balok balok2 = new Balok(30, 40, 50);
+        Balok balok2 = new Balok();
+        balok2.setPanjang(30);
+        balok2.setPanjang(40);
+        balok2.setPanjang(50);
         tampilkanInfo("Balok2", balok2);
 
         // Balok 3
